@@ -19,7 +19,7 @@ def index(request):
         "list": item_list,
         "title": "TODO LIST",
     }
-    return  render(request, 'todo/index.html', page)
+    return render(request, 'todo/index.html', page)
 
 
 def remove(request, item_id):
